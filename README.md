@@ -1,4 +1,5 @@
-🍷 WineMate - 와인 추천 & 평점 예측 프로젝트
+🍷 Pododoc - 와인 추천 & 평점 예측 프로젝트
+
 📌 개요
 WineMate는 사용자 취향을 기반으로 와인을 추천하고, 입력한 와인 정보로 예상 평점을 제공하는 머신러닝 기반의 와인 추천 웹/모바일 앱입니다.
 
@@ -21,6 +22,7 @@ DB	PostgreSQL
 머신러닝	Scikit-learn, Pandas
 배포	Docker, Docker Compose
 자동화	Jenkins (예정), GitHub Actions (대안)
+
 🔧 프로젝트 구조
 bash
 복사
@@ -30,13 +32,15 @@ bash
 /ml-api-flask        - Flask ML 서버
 /db-init             - DB 초기 설정
 /docker              - 도커 관련 파일들
+
 🚀 실행 방법 (개발 환경 기준)
 bash
 복사
 편집
+
 # 1. 레포 클론
-git clone https://github.com/yourusername/winemate.git
-cd winemate
+git clone https://github.com/Seoptrike/Pododoc_refactor.git
+cd pododoc
 
 # 2. docker-compose 실행
 docker-compose up --build
