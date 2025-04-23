@@ -1,0 +1,31 @@
+# Node.js (React)
+node_modules/
+build/
+.env
+
+# Java (Spring)
+*.iml
+.gradle/
+build/
+out/
+*.log
+
+# Python (Flask)
+__pycache__/
+*.pyc
+venv/
+.env
+
+# VSCode & OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# PostgreSQL
+*.sql
+*.dump
+postgres-data/
+pg_data/
+
+# SQLite (혹시 쓰는 경우)
+*.db
